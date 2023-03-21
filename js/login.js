@@ -10,7 +10,7 @@ document.getElementById('submit-buttton').addEventListener('click',function(){
 
     //validation:
     if(userEmail== 'samiul@gmail.com' && userPassword== 12345 ){
-        window.location.href="../banking.html"
+        window.location.href="banking.html"
 
     }else{
         alert('email/ password invalid')
